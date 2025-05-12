@@ -1,0 +1,52 @@
+.contenedor1{
+    /*display:block
+    - dsipone el elemento en bloque:
+    -utiliza por defecto todo el ANCHO DISPONIBLE DE LA PANTALLA
+    -se le pueder poner propiuedades como:;
+    *ancho, alto, padding, margin
+    -el siguiente elemento se mostrará
+      en la siguiente linea 
+    -Por defecto lo usan: h, p ,div*/
+    display: block;
+    background: pink;
+    height: 150px;
+}
+.contenedor2{
+    display: block;
+    background-color: peru;
+    height: 150px;
+    
+    
+}
+.contenedor3{
+    /*display:inline:
+    -no se le puede aplicar 
+     propiedades de ancho, alto, padding,
+     margin.
+    -el siguiente elemento se mostrara en la misma
+     linea, con un espacio
+    -por defecto lo usan: span, a img*/
+    display: inline;
+    background-color: plum;
+}
+.contenedor4{
+    display: inline;
+    background: cornflowerblue;
+}
+.contenedor5{
+    /*inline:block;
+    -los elemementos siguientes 
+      se mustran en la misma línea(inline)
+    -se le puede aplicar propiedades 
+      de ancho, alto, padding, margin(block)*/
+      display: inline-block;
+      background: palegoldenrod;
+      height: 100px;
+      width: 120px;
+}
+.contenedor6{
+    display: inline-block;
+    background: chocolate;
+    height: 100px;
+    width: 120px;
+}
